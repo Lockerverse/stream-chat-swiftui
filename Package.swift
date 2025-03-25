@@ -16,7 +16,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/Lockerverse/stream-chat-swift.git", from: "4.74.0"),
+        .package(url: "https://github.com/Lockerverse/stream-chat-swift.git", branch: "develop"),
     ],
     targets: [
         .target(
